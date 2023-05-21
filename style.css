@@ -1,0 +1,117 @@
+/* Style about me container*/
+.top-container {
+  display: flex;
+  flex-direction: column;
+}
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+}
+.title > h1 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.title > p {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.Picture {
+  display: flex;
+  justify-content: center;
+}
+.bottom-section > div {
+  padding: 10px;
+}
+.Appearance {
+  min-width: 300px;
+  max-width: 400px;
+  margin: 10px;
+  border: 1px solid black;
+  height: 200px;
+  padding: 7px;
+  border-radius: 4px;
+  background-color: pink;
+}
+.Appearance > p {
+  color: black;
+}
+.Appearance > h2 {
+  color: black;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-weight: bolder;
+}
+.Temperment {
+  min-width: 300px;
+  max-width: 400px;
+  margin: 10px;
+  border: 1px solid black;
+  height: 200px;
+  padding: 7px;
+  border-radius: 4px;
+  background-color: red;
+}
+.Temperment > p {
+  color: black;
+}
+.Temperment > h2 {
+  color: black;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-weight: bolder;
+}
+.Health {
+  min-width: 300px;
+  max-width: 400px;
+  margin: 10px;
+  border: 1px solid black;
+  height: 200px;
+  padding: 7px;
+  border-radius: 4px;
+  background-color: blue;
+}
+.Health > p {
+  color: white;
+}
+.Health > h2 {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-weight: bolder;
+}
+.Training {
+  min-width: 300px;
+  max-width: 400px;
+  margin: 10px;
+  border: 1px solid black;
+  height: 200px;
+  padding: 7px;
+  border-radius: 4px;
+  background-color: yellowgreen;
+}
+.Training > p {
+  color: black;
+}
+.Training > h2 {
+  color: black;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-weight: bolder;
+}
+.checks {
+  position: relative;
+  left: 30px;
+  top: 10px;
+}
